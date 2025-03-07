@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/calendar-app/static/css/main.ae96dd5c.css",
-    "main.js": "/calendar-app/static/js/main.3c4694ff.js",
+    "main.js": "/calendar-app/static/js/main.e72c3826.js",
     "static/media/gazprombank-logo.svg": "/calendar-app/static/media/gazprombank-logo.5649ae75dca6ba6c03636123eaed7a92.svg",
     "static/media/gazprombank-logo-ru.svg": "/calendar-app/static/media/gazprombank-logo-ru.9169f359ad313ade02a6f4a040061173.svg",
     "index.html": "/calendar-app/index.html",
     "main.ae96dd5c.css.map": "/calendar-app/static/css/main.ae96dd5c.css.map",
-    "main.3c4694ff.js.map": "/calendar-app/static/js/main.3c4694ff.js.map"
+    "main.e72c3826.js.map": "/calendar-app/static/js/main.e72c3826.js.map"
   },
   "entrypoints": [
     "static/css/main.ae96dd5c.css",
-    "static/js/main.3c4694ff.js"
+    "static/js/main.e72c3826.js"
   ]
 }
