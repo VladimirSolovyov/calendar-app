@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.min.css';
+
 .events {
 	margin: 0;
 	padding: 0;
@@ -5,7 +7,8 @@
 }
 
 .events li {
-	margin-bottom: 4px;
+	margin-bottom: 5px;
+	cursor: pointer;
 }
 
 .ant-badge-status {
@@ -14,4 +17,59 @@
 	font-size: 12px;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+}
+
+.app-layout {
+	min-height: 100vh;
+}
+
+.logo {
+	float: left;
+	width: 120px;
+	height: 31px;
+	margin: 16px 24px 16px 0;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.logo-image {
+	width: 100%;
+	height: auto;
+}
+
+.content-wrapper {
+	padding: 50px;
+}
+
+.content-container {
+	background: #fff;
+	padding: 24px;
+	min-height: 280px;
+}
+
+.add-event-button {
+	margin-bottom: 16px;
+}
+
+.event-badge {
+	cursor: pointer;
+}
+
+.event-form {
+	max-width: 600px;
+}
+
+.submit-button {
+	margin-right: 8px;
+}
+
+.cancel-button {
+	margin-left: 8px;
+}
+
+.language-switcher {
+	position: absolute;
+	right: 20px;
+	top: 16px;
 }

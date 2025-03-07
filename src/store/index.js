@@ -1,4 +1,3 @@
-// @ts-ignore
 import { configureStore } from '@reduxjs/toolkit'
 import eventReducer from './eventSlice'
 

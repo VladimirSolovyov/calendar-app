@@ -1,5 +1,6 @@
-// @ts-ignore
 import { notification } from 'antd'
+import i18n from '../i18n'
+import { MINUTE_IN_MS, THIRTY_SECONDS_IN_MS } from '../constants/time'
 
 export const showNotification = (type, message, description) => {
 	notification[type]({
@@ -16,15 +17,17 @@ export const checkEventReminders = events => {
 	events.forEach(event => {
 		const startTime = new Date(event.startTime)
 		const reminderTime = new Date(
-			startTime.getTime() - event.reminderMinutes * 60000
+			startTime.getTime() - event.reminderMinutes * MINUTE_IN_MS
 		)
 
-		if (Math.abs(now - reminderTime) < 30000) {
-			// Проверяем каждые 30 секунд
+		if (Math.abs(now - reminderTime) < THIRTY_SECONDS_IN_MS) {
 			showNotification(
 				'info',
-				'Напоминание о событии',
-				`Событие "${event.title}" начнется через ${event.reminderMinutes} минут`
+				i18n.t('reminder'),
+				i18n.t('eventReminder', {
+					title: event.title,
+					minutes: event.reminderMinutes,
+				})
 			)
 		}
 	})

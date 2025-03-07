@@ -1,0 +1,30 @@
+{
+	"translation": {
+		"calendar": "Calendar",
+		"newEvent": "New Event",
+		"addEvent": "Add Event",
+		"editEvent": "Edit Event",
+		"createEvent": "Create New Event",
+		"title": "Title",
+		"enterTitle": "Enter event title",
+		"timeRange": "Start and End Time",
+		"pleaseSelectTime": "Please select time",
+		"reminderMinutes": "Remind (minutes before)",
+		"pleaseSetReminder": "Please set reminder time",
+		"minutesBeforeStart": "Minutes before start",
+		"save": "Save",
+		"create": "Create",
+		"delete": "Delete",
+		"cancel": "Cancel",
+		"start": "Start",
+		"end": "End",
+		"success": "Success",
+		"eventCreated": "Event created",
+		"eventUpdated": "Event updated",
+		"eventDeleted": "Event deleted",
+		"reminder": "Reminder",
+		"eventReminder": "You have \"{{title}}\" scheduled in {{minutes}} minutes",
+		"eventsForDay": "Events for the day",
+		"youHaveEvents": "You have {{count}} events on {{date}}"
+	}
+}

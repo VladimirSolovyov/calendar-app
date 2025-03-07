@@ -1,0 +1,30 @@
+{
+	"translation": {
+		"calendar": "Календарь",
+		"newEvent": "Новое событие",
+		"addEvent": "Добавить событие",
+		"editEvent": "Редактировать событие",
+		"createEvent": "Создать новое событие",
+		"title": "Название",
+		"enterTitle": "Введите название события",
+		"timeRange": "Время начала и окончания",
+		"pleaseSelectTime": "Пожалуйста, выберите время",
+		"reminderMinutes": "Напомнить за (минут)",
+		"pleaseSetReminder": "Пожалуйста, укажите время напоминания",
+		"minutesBeforeStart": "Минут до начала",
+		"save": "Сохранить",
+		"create": "Создать",
+		"delete": "Удалить",
+		"cancel": "Отмена",
+		"start": "Начало",
+		"end": "Окончание",
+		"success": "Успешно",
+		"eventCreated": "Событие создано",
+		"eventUpdated": "Событие обновлено",
+		"eventDeleted": "Событие удалено",
+		"reminder": "Напоминание",
+		"eventReminder": "У вас запланировано \"{{title}}\" через {{minutes}} минут",
+		"eventsForDay": "События на день",
+		"youHaveEvents": "У вас {{count}} событий на {{date}}"
+	}
+}

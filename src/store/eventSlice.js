@@ -1,10 +1,8 @@
-// @ts-ignore
 import { createSlice } from '@reduxjs/toolkit'
 
 const eventSlice = createSlice({
 	name: 'events',
 	initialState: {
-		// @ts-ignore
 		items: JSON.parse(localStorage.getItem('events')) || [],
 	},
 	reducers: {
